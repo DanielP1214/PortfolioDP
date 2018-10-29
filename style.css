@@ -1,3 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+
+/* general */
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+
+
 #masthead {
 	position: fixed;
 	width: 100%;
@@ -6,13 +20,6 @@
 	color: #ffffff;
 	background: #517487;
 	border-bottom: 2px solid #ccc;
-}
-
-.container {
-	width: 100%;
-	max-width: 960px;
-	margin: 0 auto;
-	clear: both;
 }
 
 nav {
@@ -48,6 +55,38 @@ nav a: first-child {
 	border: 1px solid #ddd;
 }
 
+/* porfolio page*/
+.work {
+	position: relative;
+	float: left;
+	width: 274px;
+	margin:
+}
+
+.work:nth-child(even) {
+	margin-right: 40px;
+}
+
+.work img {
+	width: 100%;
+	border: 0 none;
+	opacity: 0.8;
+}
+
+.work h3 {
+	position: absolute;
+	bottom: 20px;
+	width: 100px;
+	padding: 15px;
+	margin-bottom: 0;
+	font-weight: 300;
+	line-height: 30px;
+	color: purple;
+	text-align: center;
+	background: maroon;
+	border-bottom: 0;
+}
+
 .auth-image {
 	float: left;
 	width: 200px;
@@ -56,21 +95,22 @@ nav a: first-child {
 	margin-right: 25px;
 }
 
+/* sidebar */
 .sidebar {
 	float: right;
 	width: 100%;
 	max-width: 270px;
 	padding: 30px;
 	margin-bottom: 20px;
-	background: #ffee00;
-	border: 1px solid #000000;
+	background: #517487;
+	border: 1px solid yellow;
 }
 
 h3, .sidebar h2 {
 	padding-bottom: 20px;
 	margin-bottom: 15px;
 	line-height: 22px;
-	border-bottom: 2px solid #fc8200;
+	border-bottom: 2px solid yellow;
 }
 
 .social {
@@ -80,6 +120,10 @@ h3, .sidebar h2 {
 	margin-right: 5px;
 }
 
+
+
+
+/* footer */
 footer {
 	padding: 30px 0;
 	clear: both;
